@@ -1,12 +1,20 @@
 body {
     
-    <img src="pic.png" alt="Italian Trulli">
+    
     padding-top: 50px;
     padding-right: 30px;
      padding-bottom: 50px;
     padding-left: 80px;
   }
-  
+  .reaPic{
+    float: left;
+    margin-left: 30%;
+  }
+
+.reaDesc{
+  float: left;
+  top: -30%;
+}
   h1 {
     color: rgb(231, 27, 112);
     text-align: center;
@@ -16,7 +24,7 @@ body {
   }
     
 
-  }
+  
   
   p {
     color: rgb(8, 8, 8);
