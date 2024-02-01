@@ -42,5 +42,10 @@ body {
  #testId{
   width: 300px;
   height: 300px;
-  background-color: green;
+  backgrp.dashed {border-style: dashed;}ound-color: green;
+ }
+
+ {
+  .testDiv
+  p.dashed {border-style: dashed;}
  }

@@ -1,0 +1,49 @@
+.taetitleDiv{
+    background-color: skyblue;
+    color: brown;
+   
+
+}
+.taedescDiv{
+    background-color: gray;
+    color: white;
+}
+
+
+                    /* Optional: Add some basic styling for better presentation */
+                    table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        margin-top: 50px;
+                    }
+                    th, td {
+                        border: 1px solid #e95eaf;
+                        padding: 20px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #e7a9a9;
+                    }
+
+li{
+    list-style-type: none;
+  color: red;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+  font-size: 2em;
+}
+
+.head {
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    color: black;
+
+}
