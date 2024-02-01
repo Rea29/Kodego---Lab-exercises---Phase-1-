@@ -8,7 +8,7 @@ body {
   }
   .reaPic{
     float: left;
-    margin-left: 30%;
+    margin-left: 40%;
   }
 
 .reaDesc{
@@ -16,19 +16,31 @@ body {
   top: -30%;
 }
   h1 {
-    color: rgb(231, 27, 112);
+    color: rgb(27, 231, 105);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    text-align: center;
+    text-align:left;
   }
     
 
-  
-  
+
   p {
     color: rgb(8, 8, 8);
     font-family: Italic;
     font-size: 20px;
     text-align: center;
   }
+
+
+ .testDiv{
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+ }
+
+ #testId{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+ }
