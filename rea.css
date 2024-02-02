@@ -1,51 +1,72 @@
-body {
-    
-    
-    padding-top: 50px;
-    padding-right: 30px;
-     padding-bottom: 50px;
-    padding-left: 80px;
-  }
-  .reaPic{
-    float: left;
-    margin-left: 40%;
-  }
-
-.reaDesc{
-  float: left;
-  top: -30%;
+.h {
+  text-align: center;
+  text-shadow: 2px 2px 5px red;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+ }
+.container-image {
+  max-width: 100%;
+  /* max-width: 800px; */
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-  h1 {
-    color: rgb(27, 231, 105);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    text-align:left;
-  }
-    
 
+.image {
+  flex: 1;
+  order: 2; /* Change order to 1 for image to be on the left */
+  margin: 10px;
+  overflow: hidden;
+}
 
-  p {
-    color: rgb(8, 8, 8);
-    font-family: Italic;
-    font-size: 20px;
-    text-align: center;
-  }
+.image img {
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  float: right;
+}
 
+.description {
+  flex: 1;
+  order: 1; /* Change order to 2 for image to be on the left */
+  margin: 10px;
+  color: blueviolet;
+  text-align: center;
+  
+}
+ /* .image-container {
+  background-color: green !important;
+  overflow: hidden;
+  float: right;
+  color: black;
+  text-align: left;
+  font-family: "Lucida Console", "Courier New", monospace;
+} */
 
- .testDiv{
-  width: 100px;
-  height: 100px;
-  background-color: skyblue;
- }
+.text {
+  overflow: hidden;
+}
 
- #testId{
-  width: 300px;
-  height: 300px;
-  backgrp.dashed {border-style: dashed;}ound-color: green;
- }
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
- {
-  .testDiv
-  p.dashed {border-style: dashed;}
- }
+.column {
+  flex: 1;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
